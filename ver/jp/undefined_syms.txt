@@ -1,0 +1,11 @@
+gPlayerData = 0x8010F450;
+gGameStatus = 0x80074004;
+D_80400000 = 0x80400000;
+D_80400004 = 0x80400004;
+currentButtons = 0x80400008;
+previousButtons = 0x8040000A;
+pressedButtons = 0x8040000C;
+initialFlag = 0x8040000E;
+D_800B1D48 = 0x800B1D48;
+func_800E1120 = 0x800E1120;
+func_800E12D4 = 0x800E12D4;

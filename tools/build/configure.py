@@ -8,7 +8,7 @@ from glob import glob
 
 # Configuration:
 VERSIONS = ["us", "jp"]
-DO_SHA1_CHECK = True
+DO_SHA1_CHECK = False
 
 CPPFLAGS = "-w -Iver/$version/build/include -Iinclude -Isrc -D _LANGUAGE_C -D _FINALROM -D VERSION=$version " \
             "-ffreestanding -DF3DEX_GBI_2 -D_MIPS_SZLONG=32 -MD -MF $out.d"
