@@ -1,0 +1,8 @@
+capstone
+PyYAML
+lark-parser
+pypng
+colorama
+ninja_syntax
+msgpack
+pylibyaml

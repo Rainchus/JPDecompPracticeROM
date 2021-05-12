@@ -1,0 +1,48 @@
+{
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "editor.rulers": [120],
+    "clang-tidy.compilerArgs": [
+        "-std=gnu89",
+        "-Iinclude",
+        "-Iinclude/PR",
+        "-Iver/current/build/include",
+        "-Isrc",
+        "-D_LANGUAGE_C",
+        "-DSCRIPT(...)={}",
+        "-Wall"
+    ],
+    "clang-tidy.blacklist": [
+        "include/PR",
+        "include/gcc"
+    ],
+    "git.ignoreLimitWarning": true,
+    "search.exclude": {
+        "**/build/src": true,
+        "docs/doxygen": true,
+        "ctx.c": true,
+        "ver/current": true,
+        "ver/us/build": true,
+        "ver/jp/build": true,
+        "expected": true
+    },
+    "python.autoComplete.extraPaths": [
+        "./tools"
+    ],
+    "python.analysis.extraPaths": [
+        "./tools"
+    ],
+    "[c]": {
+        "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?", // no $, for scripts
+    },
+    "files.associations": {
+        "*.h": "c",
+    },
+    "C_Cpp.autoAddFileAssociations": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.splat_cache": true,
+        ".ninja*": true,
+        "ver/current": true
+    }
+}
