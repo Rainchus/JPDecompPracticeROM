@@ -14,7 +14,7 @@
 [progress-jp-badge]: https://img.shields.io/endpoint?url=https://papermar.io/reports/progress_jp_shield.json
 
 # Initial Setup
-Clone the repo to a WSL/linux directory
+Clone the repo to a WSL/linux directory<br />
 To set up the mod for compiling, first obtain an original jp ROM<br />
 papermario.jp.z64 `sha1: b9cca3ff260b9ff427d981626b82f96de73586d3`<br />
 and place it in the ver/jp directory with the name `baserom.z64`<br />
